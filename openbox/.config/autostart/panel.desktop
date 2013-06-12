@@ -1,0 +1,9 @@
+[Desktop Entry]
+Encoding=UTF-8
+Type=Application
+Name=tint2
+Name[en_US]=tint2
+Icon=krfb
+Exec=tint2
+Comment[en_US]=
+StartupNotify=true

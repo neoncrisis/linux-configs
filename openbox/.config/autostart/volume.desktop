@@ -1,0 +1,9 @@
+[Desktop Entry]
+Encoding=UTF-8
+Type=Application
+Name=Volume Icon
+Name[en_US]=Volume Icon
+Icon=xfce4-mixer
+Exec=volumeicon
+Comment[en_US]=
+StartupNotify=true

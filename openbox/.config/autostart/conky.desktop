@@ -1,0 +1,9 @@
+[Desktop Entry]
+Encoding=UTF-8
+Type=Application
+Name=Conky
+Name[en_US]=Conky
+Icon=screensaver
+Exec=conky -c ~/.config/conky/.conkyrc
+Comment[en_US]=
+StartupNotify=true

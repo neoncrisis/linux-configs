@@ -1,0 +1,9 @@
+[Desktop Entry]
+Encoding=UTF-8
+Type=Application
+Name=Clipit
+Name[en_US]=Clipit
+Icon=clipit-trayicon
+Exec=clipit
+Comment[en_US]=
+StartupNotify=true

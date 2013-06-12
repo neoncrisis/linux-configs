@@ -1,0 +1,9 @@
+[Desktop Entry]
+Encoding=UTF-8
+Type=Application
+Name=Power Manager
+Name[en_US]=Power Manager
+Icon=preferences-system-power
+Exec=xfce4-power-manager
+Comment[en_US]=
+StartupNotify=true

@@ -1,0 +1,9 @@
+[Desktop Entry]
+Encoding=UTF-8
+Type=Application
+Name=Nitrogen
+Name[en_US]=Nitrogen
+Icon=wallpaper
+Exec=nitrogen --restore
+Comment[en_US]=
+StartupNotify=true

@@ -1,0 +1,9 @@
+[Desktop Entry]
+Encoding=UTF-8
+Type=Application
+Name=Xcompmgr
+Name[en_US]=Xcompmgr
+Icon=xfwm4
+Exec=xcompmgr
+Comment[en_US]=
+StartupNotify=true

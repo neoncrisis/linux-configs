@@ -1,4 +1,3 @@
-<?xml version="1.0"?>
 <openbox_config xmlns="http://openbox.org/3.4/rc">
   <resistance>
     <strength>10</strength>
@@ -40,8 +39,8 @@
                   'Active' - where the active window is -->
   </placement>
   <theme>
-    <name>Zukitwo-Dark</name>
-    <titleLayout>L</titleLayout>
+    <name>Syscrash</name>
+    <titleLayout>NLIMC</titleLayout>
     <!--
       available characters are NDSLIMC, each can occur at most once.
       N: window icon
@@ -92,6 +91,9 @@
     </font>
     <font place="ActiveOnScreenDisplay">
       <name/>
+      <size>8</size>
+      <weight/>
+      <slant/>
     </font>
     <font place="InactiveOnScreenDisplay">
       <name>Sans</name>
@@ -167,14 +169,14 @@
   </dock>
   <keyboard>
     <chainQuitKey>C-g</chainQuitKey>
+    <keybind key="XF86PowerOff">
+      <action name="Execute">
+        <command>oblogout</command>
+      </action>
+    </keybind>
     <keybind key="C-A-Left">
       <action name="DesktopLeft">
         <wrap>no</wrap>
-      </action>
-    </keybind>
-    <keybind key="XF86PowerOff">
-      <action name="Execute">
-        <command>systemctl poweroff</command>
       </action>
     </keybind>
     <keybind key="C-A-Right">
@@ -245,11 +247,6 @@
         </startupnotify>
       </action>
     </keybind>
-    <keybind key="A-Escape">
-      <action name="Lower"/>
-      <action name="FocusToBottom"/>
-      <action name="Unfocus"/>
-    </keybind>
     <keybind key="A-space">
       <action name="ShowMenu">
         <menu>client-menu</menu>
@@ -269,7 +266,7 @@
     </keybind>
     <keybind key="W-f">
       <action name="Execute">
-        <command>spacefm</command>
+        <command>exo-open --launch FileManager</command>
         <startupnotify>
           <enabled>yes</enabled>
           <name>File Manager</name>
@@ -278,7 +275,7 @@
     </keybind>
     <keybind key="W-w">
       <action name="Execute">
-        <command>firefox</command>
+        <command>exo-open --launch WebBrowser</command>
         <startupnotify>
           <enabled>yes</enabled>
           <name>Web Browser</name>
@@ -296,10 +293,10 @@
     </keybind>
     <keybind key="W-t">
       <action name="Execute">
-        <command>lxterminal</command>
+        <command>exo-open --launch TerminalEmulator</command>
         <startupnotify>
           <enabled>yes</enabled>
-          <name>terminal</name>
+          <name>Terminal Emulator</name>
         </startupnotify>
       </action>
     </keybind>
@@ -311,9 +308,6 @@
           <name>Kill an application</name>
         </startupnotify>
       </action>
-    </keybind>
-    <keybind key="W-v">
-      <action name="ToggleMaximizeVert"/>
     </keybind>
     <keybind key="W-e">
       <action name="Execute">
@@ -333,58 +327,10 @@
         </startupnotify>
       </action>
     </keybind>
-    <keybind key="W-r">
-      <action name="Execute">
-        <command>update_doc</command>
-        <startupnotify>
-          <enabled>yes</enabled>
-          <name>DOC</name>
-        </startupnotify>
-      </action>
-    </keybind>
-    <keybind key="W-x">
-      <action name="Execute">
-        <command>conkyswitcher</command>
-        <startupnotify>
-          <enabled>yes</enabled>
-          <name>Switches conky</name>
-        </startupnotify>
-      </action>
-    </keybind>
     <keybind key="W-space">
       <action name="ShowMenu">
         <menu>root-menu</menu>
       </action>
-    </keybind>
-    <keybind key="W-a">
-      <action name="ToggleMaximizeFull"/>
-    </keybind>
-    <keybind key="W-Right">
-      <action name="MoveToEdgeEast"/>
-    </keybind>
-    <keybind key="W-Up">
-      <action name="MoveToEdgeNorth"/>
-    </keybind>
-    <keybind key="W-Left">
-      <action name="MoveToEdgeWest"/>
-    </keybind>
-    <keybind key="W-Down">
-      <action name="MoveToEdgeSouth"/>
-    </keybind>
-    <keybind key="W-h">
-      <action name="ToggleMaximizeHorz"/>
-    </keybind>
-    <keybind key="A-W-Up">
-      <action name="GrowToEdgeNorth"/>
-    </keybind>
-    <keybind key="A-W-Right">
-      <action name="GrowToEdgeEast"/>
-    </keybind>
-    <keybind key="A-W-Down">
-      <action name="GrowToEdgeSouth"/>
-    </keybind>
-    <keybind key="A-W-Left">
-      <action name="GrowToEdgeWest"/>
     </keybind>
     <keybind key="W-c">
       <action name="Execute">
@@ -408,7 +354,7 @@
     </keybind>
     <keybind key="XF86ScreenSaver">
       <action name="Execute">
-        <command>slimlock</command>
+        <command>slock</command>
       </action>
     </keybind>
     <keybind key="XF86Sleep">

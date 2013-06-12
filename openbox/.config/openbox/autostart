@@ -1,14 +1,14 @@
 ## Panels
-tint2 &
+#tint2 &
 
 ## Automounting
 spacefm --daemon-mode &
 
 ## Volume & Clipboard Manager
-conky -c ~/.config/conky/.conkyrc &
-volumeicon &
+#conky -c ~/.config/conky/.conkyrc &
+#volumeicon &
 
 # Misc
-nitrogen --restore &
+#nitrogen --restore &
 #clipit &
 xcompmgr &
