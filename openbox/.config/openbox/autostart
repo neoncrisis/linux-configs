@@ -11,4 +11,4 @@ spacefm --daemon-mode &
 # Misc
 #nitrogen --restore &
 #clipit &
-xcompmgr &
+#xcompmgr &
