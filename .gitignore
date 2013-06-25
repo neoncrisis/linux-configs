@@ -2,5 +2,6 @@
 *.cache
 
 ## 
-home/.config/sublime-text-2/Packages/User/Package Control.last-run
 home/.local/share
+sublime-text-2/.config/sublime-text-2/Packages/User/Package Control.last-run
+sublime-text-2/.config/sublime-text-2/Packages/User/Package Control.sublime-settings
