@@ -1,0 +1,9 @@
+[Desktop Entry]
+Encoding=UTF-8
+Type=Application
+Name=Network Manager
+Name[en_US]=Network Manager
+Icon=nm-signal-100
+Exec=nm-applet
+Comment[en_US]=
+StartupNotify=true

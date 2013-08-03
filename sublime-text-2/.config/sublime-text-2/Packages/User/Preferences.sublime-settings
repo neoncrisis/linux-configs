@@ -108,7 +108,7 @@
 	"show_tab_close_buttons": true,
 	"smart_indent": true,
 	"tab_completion": true,
-	"tab_size": 2,
+	"tab_size": 4,
 	"theme": "Soda Dark.sublime-theme",
 	"trim_automatic_white_space": true,
 	"word_separators": "./\\()\"'-:,.;<>~!@#$%^&*|+=[]{}`~?",
